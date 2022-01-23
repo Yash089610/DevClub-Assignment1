@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    top: 0;
+    padding-top: 10px;
+    background-color: rgb(100, 14, 69);
+}
+
+#navbar {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: right;
+    margin: auto;
+    margin-right: 10vw;
+}
+
+#navicon {
+    height: 75px;
+    display: inline-flex;
+    margin-left: 10vw;
+    background-color: rgb(100, 14, 69);
+}
+
+.navitems {
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    background-color: rgb(100, 14, 69);
+    font-family: 'Megrim', cursive;
+    font-weight: 900;
+}
+
+#home {
+    max-width: 80vw;
+    padding: 150px 10vw 20vh 10vw;
+    padding-top: 150px;
+    padding-left: 10vw;
+    display: inline-flex;
+}
+
+#homeheading1 {
+    font-size: 5vh;
+    color: rgb(168, 102, 102);
+}
+
+#homeheading2 {
+    font-size: 15vh;
+    color: #ebc7c7;
+}
+
+#homeimages {
+    max-width: 40vw;
+    display: inline-flex;
+}
+
+#homeimage {
+    width: 30vw;
+}
+
+#tips {
+    padding: 20vh 20vw 1vh 20vw;
+}
+
+#heading {
+    text-align: center;
+    color: rgb(209, 100, 100);
+    font-size: 10vh;
+    font-family: 'Megrim', cursive;
+    font-weight: 900;
+}
+
+.tips {
+    border: 1px double rgb(235, 140, 140);
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.tipsimage {
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.tipstitle {
+    color: rgb(231, 114, 114);
+    font-size: 7vh;
+    padding-left: 5vw;
+}
+
+#symptoms {
+    padding: 20vh 20vw 1vh 20vw;
+}
+
+
+tr, td {
+    border: 2px solid rgb(189, 95, 95);
+}
+
+table {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5vh;
+    width: 60vw;
+}
+
+td {
+    color: rgb(218, 170, 170);
+    font-size: 3vh;
+    padding: 5px 5px 5px 5px;
+}
+
+
+#faqs {
+    padding: 20vh 20vw 1vh 20vw;
+}
+
+
+
+.faqs {
+    border: 3px double rgb(82, 55, 55);
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.faqtitle {
+    color: rgb(223, 170, 170);
+    font-size: 4vh;
+    padding-left: 2vw;
+    padding-top: 2vh;
+}
+
+.faqcontent {
+    color: rgb(161, 87, 87);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+}
+
+
+#yt {
+    padding: 20vh 20vw 10vh 20vw;
+}
+
+
+#ytvideo {
+    padding-top: 10vh;
+    height: 60vh;
+    width: 60vw;
+}
+
+
+#footer {   
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4vh;
+    background-color: rgb(100, 14, 69);
+    font-weight: 900;
+}
